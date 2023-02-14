@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+
+    </head>
+
+    <body>
+
+
+      <div>
+        <a href="index.html" class="link1">HOME /</a>
+        <h1 style="color: blueviolet;  text-align:center ;" >Drop us a mail</h1>
+        <div class="row">
+            <div class="column" id="colum1">
+                <div id="map"></div>
+            </div>
+            <div class="column">
+              <div>
+                
+                <p>mercy, france road outof parise</p><br>
+                
+            
+                <p><b style="color:rgb(154, 160, 160);">Phone No </b>: 0776663270</p>
+          
+        
+                <p><b style="color:rgb(154, 160, 160);">Email : </b> example10@gmail.com</p>
+     
+     
+                <p><b style="color:rgb(154, 160, 160);">Fax No :  </b>0774444067</p>  <br> <br>
+           
+                    <h2 style="color: blueviolet; ">Want to know more Drop us a Mail</h2><br><hr>
+       
+
+                    <table>
+
+                        <form onsubmit="return myfunc()" target="_self">
+                            <tr><td>
+                              
+                             
+                              <input type="text" name="" value="" id="user" placeholder="Enter your name" autocomplete="off" style="background-color: rgb(231, 222, 217, 0.87);  height: 50px; width: 250px;"><br>
+                              <p id="UserError" class="text-alert" class="font1"></p>
+                                </td>
+                        
+                                <td>
+                                    
+                                    <input type="text" name="" value="" id="ZipCode" placeholder="Enter your Last name" autocomplete="off" style="background-color: rgb(231, 222, 217, 0.87);  height: 50px; width: 250px;"><br>
+                                    <p id="ZipCodeError" class="font1"></p>
+                                    </td>
+                        
+                              
+                        
+                            </tr>
+                        
+                              <tr>
+                                <td>
+                                    
+                                    <input type="text" name="" value="" id="email" placeholder="Enter your Email Address" autocomplete="off" style="background-color: rgb(231, 222, 217, 0.87);  height: 50px; width: 250px;"><br>
+                                    <p id="EmailError" class="font1" ></p>
+                                    </td>
+                        
+                        
+                                <td>
+                                
+                                <input type="text" name="" value="" id="Pnumber" placeholder="Enter your Phone Number" autocomplete="off" style="background-color: rgb(231, 222, 217, 0.87);  height: 50px; width: 250px;"><br>
+                                <p id="PnumberError" class="font1"></p>
+                                </td>
+                             </tr>
+                        
+                        
+                             <tr>
+                                <td colspan="2">
+                                    <textarea placeholder="Message" rows="5" cols="60" style="background-color: rgb(231, 222, 217, 0.87);">
+                        
+                                    </textarea>
+                                </td>
+                            </tr>
+                        
+                        
+                        
+                        
+                                
+                        
+                        
+                                <tr><td>
+                            
+                            <input id="Submit" type="submit" name="" value="Submit_Validation">
+                            </td></tr>
+                          </form>
+                        
+                        
+                        
+                          </table>
+        
+            </div>
+
+           
+
+
+
+              </div>
+            </div>
+        </div>
+        
+            
+        <script defer
+              src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbBTsw3a0xr_gDG89PMwd99dpxoE-y45A&callback=initMap">
+            </script>
+        <script src="form.js"></script>
+    </body>
+</html>

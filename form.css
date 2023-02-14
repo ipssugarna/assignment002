@@ -1,0 +1,45 @@
+
+#map {
+    height: 600px;
+    width: 600px;       
+  }
+  
+.font1{
+   color: red;
+}
+
+  * {
+  box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  #colum1{
+  padding-left: 300px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+  
+  
+  
+  table {
+      border-spacing: 5px;
+    }
+
+ hr{
+    width:500px;
+    margin-left: 9px;
+    position: relative;
+    top: -14px;
+ }
